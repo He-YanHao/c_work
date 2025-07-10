@@ -1,0 +1,49 @@
+# 编译生成的文件
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# 构建目录
+build/
+dist/
+bin/
+obj/
+
+# CMake 生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 编辑器/IDE 文件
+.vscode/
+.idea/
+*.code-workspace
+
+# 项目文件 (Visual Studio)
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+
+# 调试文件
+*.dSYM/      # macOS 调试符号
+*.pdb        # Windows 调试符号
+*.ilk
+
+# 其他
+*.log
+*.bak
+*.patch
+*.orig
+
+# 依赖目录
+deps/
+third_party/
+
+# 可执行文件 (根据项目名称自定义)
