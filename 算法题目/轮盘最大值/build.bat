@@ -1,1 +1,1 @@
-gcc -o ".\build.exe" ".\main.c"
+gcc -o ".\out.exe" ".\main.c"
